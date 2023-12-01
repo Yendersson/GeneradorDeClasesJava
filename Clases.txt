@@ -1,0 +1,17 @@
+-User
+	firstname
+	lastname
+	password
+	email
+
+-Product
+	title
+	description
+	price double
+	image
+	
+-Purchase
+	products type:list -Product
+	user -User
+	
+
